@@ -72,7 +72,7 @@ public class Data {
             
         return p;
     }
-    
+    //holi
     public void eliminarProducto(int id) throws SQLException{
         q = "delete from producto where id = '"+ id +"'";
         c.ejecutar(q);       
